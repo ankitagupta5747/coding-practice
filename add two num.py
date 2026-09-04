@@ -9,15 +9,15 @@ class Solution:
             b = l2.val if l2 else 0
 
             total = a + b + carry
-            carry = total // 10
 
+            carry = total // 10
             current.next = ListNode(total % 10)
             current = current.next
 
             if l1:
                 l1 = l1.next
+
             if l2:
                 l2 = l2.next
 
         return dummy.next
-        
