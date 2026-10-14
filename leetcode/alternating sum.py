@@ -1,4 +1,4 @@
-```python
+
 class Solution(object):
     def maxAlternatingSum(self, nums):
         nums.sort(key=lambda x: x * x)
@@ -10,4 +10,3 @@ class Solution(object):
         large = sum(x * x for x in nums[mid:])
 
         return large - small
-```
