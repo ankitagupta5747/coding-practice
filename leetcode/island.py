@@ -1,4 +1,4 @@
-```python
+
 class Solution:
     def closedIsland(self, grid):
         m = len(grid)
