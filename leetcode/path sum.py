@@ -1,4 +1,4 @@
-```python
+
 class Solution:
     def hasPathSum(self, root, targetSum):
         if not root:
@@ -11,4 +11,3 @@ class Solution:
 
         return (self.hasPathSum(root.left, targetSum) or
                 self.hasPathSum(root.right, targetSum))
-```
